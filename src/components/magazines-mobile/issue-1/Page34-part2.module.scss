@@ -1,7 +1,6 @@
 @import './styles.module.scss';
 
 .wrapper {
-  width: 320px;
   height: 100vh;
   overflow: scroll;
   background-color: white;
@@ -9,15 +8,8 @@
   display: flex;
   position: relative;
 
-  .paintImage {
-    width: 320px;
-    height: auto;
-  }
-
-
   .backgroundImage {
     position: absolute;
-    width: 320px;
     height: fit-content;
     left: 0px;
     top: 0px;
@@ -155,6 +147,40 @@
 
     color: #FFFFFF;
   }
+}
 
+@media only screen and (max-width: 768px){
+  .wrapper {
+    width: 768px;
+    .backgroundImage {
+      width: 768px;
+    }
+  }
+}
 
+@media only screen and (max-width: 425px){
+  .wrapper {
+    width: 425px;
+    .backgroundImage {
+      width: 425px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .wrapper {
+    width: 375px;
+    .backgroundImage {
+      width: 375px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .wrapper {
+    width: 320px;
+    .backgroundImage {
+      width: 320px;
+    }
+  }
 }

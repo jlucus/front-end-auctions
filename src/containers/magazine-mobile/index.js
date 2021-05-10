@@ -6,8 +6,11 @@ import Page34 from '@components/magazines-mobile/issue-1/Page34'
 import Page34Part2 from '@components/magazines-mobile/issue-1/Page34-part2'
 import Page56 from '@components/magazines-mobile/issue-1/Page56'
 import Page78 from '@components/magazines-mobile/issue-1/Page78'
+import Page78Part2 from '@components/magazines-mobile/issue-1/Page78-part2'
 import Page910 from '@components/magazines-mobile/issue-1/Page910'
+import Page910Part2 from '@components/magazines-mobile/issue-1/Page910-part2'
 import Page1112 from '@components/magazines-mobile/issue-1/Page1112'
+import Page1112Part2 from '@components/magazines-mobile/issue-1/Page1112-part2'
 import Page1314 from '@components/magazines-mobile/issue-1/Page1314'
 import Page1516 from '@components/magazines-mobile/issue-1/Page1516'
 import Page1718 from '@components/magazines-mobile/issue-1/Page1718'
@@ -71,12 +74,15 @@ const MagazineViewer = props => {
             <MagazinePageWrapper><Page12 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page34 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page34Part2 /></MagazinePageWrapper>
-            {/* <MagazinePageWrapper><Page56 /></MagazinePageWrapper> */}
-            {/* <MagazinePageWrapper><Page78 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page56 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page78 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page78Part2 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page910 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page910Part2 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1112 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page1112Part2 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1314 /></MagazinePageWrapper>
-            <MagazinePageWrapper><Page1516 /></MagazinePageWrapper>
+            {/*<MagazinePageWrapper><Page1516 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1718 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1920 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page2122 /></MagazinePageWrapper>
