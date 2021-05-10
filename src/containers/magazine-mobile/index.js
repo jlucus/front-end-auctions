@@ -3,6 +3,7 @@ import SwipePage from '../../components/swipe'
 import CoverPage from '@components/magazines-mobile/issue-1/CoverPage'
 import Page12 from '@components/magazines-mobile/issue-1/Page12'
 import Page34 from '@components/magazines-mobile/issue-1/Page34'
+import Page34Part2 from '@components/magazines-mobile/issue-1/Page34-part2'
 import Page56 from '@components/magazines-mobile/issue-1/Page56'
 import Page78 from '@components/magazines-mobile/issue-1/Page78'
 import Page910 from '@components/magazines-mobile/issue-1/Page910'
@@ -68,9 +69,10 @@ const MagazineViewer = props => {
           >
             <MagazinePageWrapper><CoverPage /></MagazinePageWrapper>
             <MagazinePageWrapper><Page12 /></MagazinePageWrapper>
-            {/* <MagazinePageWrapper><Page34 /></MagazinePageWrapper>
-            <MagazinePageWrapper><Page56 /></MagazinePageWrapper>
-            <MagazinePageWrapper><Page78 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page34 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page34Part2 /></MagazinePageWrapper>
+            {/* <MagazinePageWrapper><Page56 /></MagazinePageWrapper> */}
+            {/* <MagazinePageWrapper><Page78 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page910 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1112 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1314 /></MagazinePageWrapper>
