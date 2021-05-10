@@ -2,7 +2,7 @@
 
 .wrapper {
   width: 320px;
-  height: 1497px;
+  height: 3200px;
   background-color: white;
   color: black;
   display: flex;
@@ -11,7 +11,7 @@
   .backImage1 {
     position: absolute;
     width: 320px;
-    height: 1519px;
+    height: 3200px;
     left: 0px;
     top: -22px;
   }
@@ -46,154 +46,59 @@
     border-bottom: 10px solid black;
   }
 
-  .leftTextImage {
+  .topTextImage {
     position: absolute;
-    width: 92.28px;
-    height: 1660px;
-    left: 31px;
-    top: 36px;
+    width: 320px;
+    left: 0px;
+    top: 30px;
   }
 
-  .rightTextImage {
+  .bottomTextImage {
     position: absolute;
-    width: 83px;
-    height: 1660px;
-    right: 31px;
-    top: 36px;
+    width: 320px;
+    left: 0px;
+    bottom: 30px;
   }
 
   h1 {
-    position: absolute;
-    width: 659px;
-    height: 75px;
-    left: 212px;
-    top: 27px;
-
     font-family: Lusitana;
     font-style: normal;
     font-weight: bold;
+    white-space: normal;
     font-size: 15px;
-    line-height: 150%;
+    margin-bottom: 100px;
   }
 
   h2 {
     font-family: Medula One;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 150%;
+    white-space: normal;
+    font-size: 24px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .innerWrapper {
     position: absolute;
-
-    &.section1 {
-      width: 272px;
-      height: 38px;
-      left: 195px;
-      top: 89px;
-    }
-
-    &.section2 {
-      width: 703px;
-      height: 30px;
-      left: 195px;
-      top: 249px;
-    }
-
-    &.section3 {
-      width: 408px;
-      height: 38px;
-      left: 195px;
-      top: 404px;
-    }
-
-    &.section4 {
-      width: 623px;
-      height: 60px;
-      left: 271px;
-      top: 563px;
-      text-align: right;      
-    }
-
-    &.section5 {
-      width: 708px;
-      height: 76px;
-      left: 196px;
-      top: 769px;      
-    }
-
-    &.section6 {
-      width: 623px;
-      height: 60px;
-      left: 267px;
-      top: 1048px;
-      text-align: right;      
-    }
-
-    &.section7 {
-      width: 687px;
-      height: 76px;
-      left: 196px;
-      top: 1251px;      
-    }
+    top: 300px;
+    width: 320px;
+    z-index: 1000;
+    text-align: center;
   }
 
   p {
     font-family: Lexend Zetta;
     font-style: normal;
     font-weight: normal;
+    white-space: normal;
     font-size: 12px;
-    line-height: 150%;
-    position: absolute;
-
-    &.section1 {
-      width: 700px;
-      height: 141px;
-      left: 195px;
-      top: 129px;
-    }
-
-    &.section2 {
-      width: 699px;
-      height: 141px;
-      left: 203px;
-      top: 282px;
-    }
-
-    &.section3 {
-      width: 706px;
-      height: 135px;
-      left: 196px;
-      top: 442px;
-    }
-
-    &.section4 {
-      width: 699px;
-      height: 153px;
-      left: 199px;
-      top: 631px;
-      text-align: right;
-    }
-
-    &.section5 {
-      width: 700px;
-      height: 271px;
-      left: 196px;
-      top: 851px;
-    }
-
-    &.section6 {
-      width: 699px;
-      height: 153px;
-      left: 195px;
-      top: 1120px;
-      text-align: right;
-    }
-
-    &.section7 {
-      width: 698px;
-      height: 141px;
-      left: 196px;
-      top: 1327px;
-    }
+    display: block;
+    margin-bottom: 30px;
+    
   }
 
   .artby {
@@ -209,5 +114,41 @@
     font-size: 21px;
     line-height: 150%;
     text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .wrapper {
+    width: 768px;
+    .backImage1, .backImage2 {
+      width: 768px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .wrapper {
+    width: 425px;
+    .backImage1, .backImage2 {
+      width: 425px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .wrapper {
+    width: 375px;
+    .backImage1, .backImage2 {
+      width: 375px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .wrapper {
+    width: 320px;
+    .backImage1, .backImage2 {
+      width: 320px;
+    }
   }
 }

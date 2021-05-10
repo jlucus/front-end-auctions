@@ -12,6 +12,7 @@ import Page910Part2 from '@components/magazines-mobile/issue-1/Page910-part2'
 import Page1112 from '@components/magazines-mobile/issue-1/Page1112'
 import Page1112Part2 from '@components/magazines-mobile/issue-1/Page1112-part2'
 import Page1314 from '@components/magazines-mobile/issue-1/Page1314'
+import Page1314Part2 from '@components/magazines-mobile/issue-1/Page1314-part2'
 import Page1516 from '@components/magazines-mobile/issue-1/Page1516'
 import Page1718 from '@components/magazines-mobile/issue-1/Page1718'
 import Page1920 from '@components/magazines-mobile/issue-1/Page1920'
@@ -82,6 +83,7 @@ const MagazineViewer = props => {
             <MagazinePageWrapper><Page1112 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1112Part2 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1314 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page1314Part2 /></MagazinePageWrapper>
             {/*<MagazinePageWrapper><Page1516 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1718 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1920 /></MagazinePageWrapper>
