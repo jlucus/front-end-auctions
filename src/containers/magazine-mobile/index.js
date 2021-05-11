@@ -96,10 +96,10 @@ const MagazineViewer = props => {
             <MagazinePageWrapper><Page1920Part2 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page2021 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page2122 /></MagazinePageWrapper>
-            {/*<MagazinePageWrapper><Page2324 /></MagazinePageWrapper>
+            {/* <MagazinePageWrapper><Page2324 /></MagazinePageWrapper> */}
             <MagazinePageWrapper><Page2526 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page2728 /></MagazinePageWrapper>
-            <MagazinePageWrapper><Page2930 /></MagazinePageWrapper>
+           {/*<MagazinePageWrapper><Page2930 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page3132 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page3334 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page3536 /></MagazinePageWrapper>
