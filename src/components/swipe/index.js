@@ -13,6 +13,7 @@ export default function swipePage({ children }) {
       showThumbs={false}
       autoPlay={false}
       autoFocus={false}
+      infiniteLoop={false}
       >
       {children}
       </Carousel>
