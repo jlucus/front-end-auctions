@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './styles.module.scss'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import styles from './styles.module.scss'
 import {Carousel} from 'react-responsive-carousel'
 
 export default function swipePage({ children }) {
