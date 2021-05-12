@@ -10,6 +10,10 @@ const viewerList = [
     id: 'magazineview',
     caption: 'Magazine View'
   },
+  {
+    id: 'webview',
+    caption: 'Web View'
+  }
 ]
 
 const ViewerSwitch = props => {
