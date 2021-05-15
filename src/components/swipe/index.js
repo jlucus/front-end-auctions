@@ -14,6 +14,8 @@ export default function swipePage({ children }) {
       autoPlay={false}
       autoFocus={false}
       infiniteLoop={false}
+      swipeScrollTolerance={30}
+      preventMovementUntilSwipeScrollTolerance={true}
       >
       {children}
       </Carousel>
