@@ -5,8 +5,8 @@ import Page12 from '@components/magazines-mobile/issue-1/Page12'
 import Page3 from '@components/magazines-mobile/issue-1/Page3'
 import Page4 from '@components/magazines-mobile/issue-1/Page4'
 import Page5 from '@components/magazines-mobile/issue-1/Page5'
-import Page78 from '@components/magazines-mobile/issue-1/Page78'
-import Page78Part2 from '@components/magazines-mobile/issue-1/Page78-part2'
+import Page6 from '@components/magazines-mobile/issue-1/Page6'
+import Page7 from '@components/magazines-mobile/issue-1/Page7'
 import Page910 from '@components/magazines-mobile/issue-1/Page910'
 import Page910Part2 from '@components/magazines-mobile/issue-1/Page910-part2'
 import Page1112 from '@components/magazines-mobile/issue-1/Page1112'
@@ -53,6 +53,35 @@ import Page56 from '@components/magazines-mobile/issue-1/Page56'
 import Page57 from '@components/magazines-mobile/issue-1/Page57'
 import Page58 from '@components/magazines-mobile/issue-1/Page58'
 import Page59 from '@components/magazines-mobile/issue-1/Page59'
+import Page60 from '@components/magazines-mobile/issue-1/Page60'
+import Page61 from '@components/magazines-mobile/issue-1/Page61'
+import Page62 from '@components/magazines-mobile/issue-1/Page62'
+import Page63 from '@components/magazines-mobile/issue-1/Page63'
+import Page64 from '@components/magazines-mobile/issue-1/Page64'
+import Page65 from '@components/magazines-mobile/issue-1/Page65'
+import Page66 from '@components/magazines-mobile/issue-1/Page66'
+import Page67 from '@components/magazines-mobile/issue-1/Page67'
+import Page68 from '@components/magazines-mobile/issue-1/Page68'
+import Page69 from '@components/magazines-mobile/issue-1/Page69'
+import Page70 from '@components/magazines-mobile/issue-1/Page70'
+import Page71 from '@components/magazines-mobile/issue-1/Page71'
+import Page72 from '@components/magazines-mobile/issue-1/Page72'
+import Page73 from '@components/magazines-mobile/issue-1/Page73'
+import Page74 from '@components/magazines-mobile/issue-1/Page74'
+import Page75 from '@components/magazines-mobile/issue-1/Page75'
+import Page76 from '@components/magazines-mobile/issue-1/Page76'
+import Page77 from '@components/magazines-mobile/issue-1/Page77'
+import Page78 from '@components/magazines-mobile/issue-1/Page78'
+import Page79 from '@components/magazines-mobile/issue-1/Page79'
+import Page80 from '@components/magazines-mobile/issue-1/Page80'
+import Page81 from '@components/magazines-mobile/issue-1/Page81'
+import Page82 from '@components/magazines-mobile/issue-1/Page82'
+import Page83 from '@components/magazines-mobile/issue-1/Page83'
+import Page84 from '@components/magazines-mobile/issue-1/Page84'
+import Page85 from '@components/magazines-mobile/issue-1/Page85'
+import Page86 from '@components/magazines-mobile/issue-1/Page86'
+import Page87 from '@components/magazines-mobile/issue-1/Page87'
+import Page88 from '@components/magazines-mobile/issue-1/Page88'
 
 import MagazinePageWrapper from '@components/magazines-mobile/common/MagazinePageWrapper'
 import ViewerSwitch from '@components/magazines-mobile/common/ViewerSwitch'
@@ -78,8 +107,8 @@ const MagazineViewer = props => {
             <MagazinePageWrapper><Page3 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page4 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page5 /></MagazinePageWrapper>
-            <MagazinePageWrapper><Page78 /></MagazinePageWrapper>
-            <MagazinePageWrapper><Page78Part2 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page6 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page7 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page910 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page910Part2 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page1112 /></MagazinePageWrapper>
@@ -126,6 +155,35 @@ const MagazineViewer = props => {
             <MagazinePageWrapper><Page57 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page58 /></MagazinePageWrapper>
             <MagazinePageWrapper><Page59 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page60 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page61 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page62 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page63 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page64 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page65 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page66 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page67 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page68 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page69 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page70 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page71 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page72 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page73 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page74 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page75 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page76 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page77 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page78 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page79 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page80 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page81 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page82 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page83 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page84 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page85 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page86 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page87 /></MagazinePageWrapper>
+            <MagazinePageWrapper><Page88 /></MagazinePageWrapper>
 
           </SwipePage>
         </div>

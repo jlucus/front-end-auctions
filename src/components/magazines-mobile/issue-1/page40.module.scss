@@ -45,11 +45,11 @@
             position: absolute;
             width: 100px;
             right: 40px;
-            top: 140px;
+            top: calc(100vh - 350px);
         }
         h5 {
             position: absolute;
-            top: 150px;
+            top: calc(100vh - 340px);
             right: 120px;
             width: 110px;
             font-family: Finger Paint;

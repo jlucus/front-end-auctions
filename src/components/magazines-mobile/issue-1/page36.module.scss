@@ -22,7 +22,7 @@
   .innerWrapper {
     position: absolute;
     top: 46px;
-    left: 20px;
+    left: calc((100vw - 260px) / 2);
     width: 260px;
     text-align: center;
     h1 {

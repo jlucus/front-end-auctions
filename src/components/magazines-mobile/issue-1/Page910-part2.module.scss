@@ -22,7 +22,8 @@
 
   h1 {
     position: absolute;
-    left: 60px;
+    width: 230px;
+    left: calc((100vw - 230px) / 2);
     top: 93px;
     font-family: Archie Websters;
     font-style: normal;

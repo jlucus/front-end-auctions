@@ -5,7 +5,7 @@ const Page910 = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.firstPartWrapper}>
-        <img src='./magazine/1/images/mobile/page78-bg.png' className={styles.backImage1} />
+        <img src='./magazine/1/images/mobile/page6-bg.png' className={styles.backImage1} />
         <p>
           Each portion of this digital piece of real estate is an NFT. These assets are non-fungible; hence they cannot be duplicated. Furthermore, the unique digital identifiers on NFTs serve as immutable proof of ownership of the underlying digital asset — in this case, digital real estate. In essence, digital real estate is another iteration of NFTs like Beeple's record-breaking artwork that possess inherent transferability, and like artwork, can be bought from primary and secondary sales. Games allow players to purchase digital ownership rights — virtual title deeds, as it were — in the form of an NFT. Digital real estate is unbound by building codes, restrictions, and the tricky nature of real estate ownership and dealing with government agencies. And thanks to the power of the blockchain's decentralized ledger, the integrity of these assets is secured. 
           <br /><br />

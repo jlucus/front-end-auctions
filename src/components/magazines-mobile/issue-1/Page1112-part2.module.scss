@@ -111,7 +111,8 @@
 
   h4 {
     position: absolute;
-    left: 60px;
+    width: 200px;
+    left: calc((100vw - 200px) / 2);
     top: 97px;
     text-align: center;
 
@@ -123,7 +124,7 @@
 
   h5 {
     position: absolute;
-    left: 40px;
+    left: calc((100vw - 230px) / 2);
     width: 230px;
     top: 400px;
     
@@ -149,7 +150,7 @@
   .textContainer {
     position: absolute;
     top: 800px;
-    left: 50px;
+    left: calc((100vw - 200px) / 2);
     width: 200px;
   }
 }

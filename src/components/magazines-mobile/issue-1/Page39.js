@@ -4,6 +4,7 @@ import styles from './page39.module.scss'
 const Page39 = () => {
   return (
     <div className={styles.wrapper}>
+      <img src="./magazine/1/images/mobile/page39-bg.png" className={styles.backImage} />
       <div className={styles.innerWrapper}>
         <div className={styles.section1}>
           <h1>ESPA</h1>

@@ -33,7 +33,7 @@
     position: absolute;
     top: 500px;
     width: 200px;
-    left: 70px;
+    left: calc((100vw - 200px) / 2);
     font-style: normal;
     font-weight: normal;
     white-space: normal;
